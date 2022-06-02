@@ -1,0 +1,69 @@
+.cookie-banner {
+    font-family: sans-serif;
+	position: absolute;
+    align-content: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: red;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+.close {
+    height: 20px;
+    background-color: #777;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.popup-logo {
+    box-sizing: border-box;
+    vertical-align:middle;
+    margin-right: 20px;
+    height: 60px;
+}
+
+.covid-alert {
+    display: block;
+    padding: 0 10px;
+    text-align: center;
+    margin: auto;
+}
+
+a.covid-sa {
+    color: green;
+    font-weight: 620;
+    font-style: italic;
+}
+
+a.covid-sa:hover {
+    color: black;
+    font-weight: 620;
+    font-style: italic;
+}
+
+@media screen and (max-width: 805px){
+
+    .popup-logo {
+        display: none;
+    }
+
+  .covid-alert {
+    font-size: 13px;
+    padding: 15px;
+    text-align: left;
+      
+}
+
+
+}
